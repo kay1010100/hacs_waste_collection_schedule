@@ -1,5 +1,5 @@
 {
-  "name": "Waste Collection Schedule",
+  "name": "Waste Collection Schedule - Test Kay",
   "domains": ["sensor"],
   "iot_class": "cloud_polling",
   "homeassistant": "2023.12.0"
