@@ -1,4 +1,4 @@
-# HVCGroep
+# Mijn Afvalzaken
 
 Support for schedules provided by [mijnafvalzaken.nl](https://www.mijnafvalzaken.nl/) and other Dutch municipalities.
 
