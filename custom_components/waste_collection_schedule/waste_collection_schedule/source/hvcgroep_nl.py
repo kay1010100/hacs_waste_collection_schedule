@@ -21,6 +21,12 @@ def EXTRA_INFO():
 
 
 TEST_CASES = {
+    "Hvcgroep: Heemskerk": {
+        "postal_code": "1969NB",
+        "house_number": "27",
+        "house_letter": "a",
+        "service": "hvcgroep",
+    },
     "Alphen a/d Rijn": {
         "postal_code": "2404EN",
         "house_number": "7",
@@ -300,7 +306,8 @@ class Source:
 
     def fetch(self):
         # Retrieve bagid (unique waste management identifier)
-        r = requests.get(f"{self._url}/adressen/{self.postal_code}:{self.house_number}")
+        r = requests.get(
+            f"{self._url}/adressen/{self.postal_code}:{self.house_number}")
         r.raise_for_status()
         data = r.json()
 
@@ -339,7 +346,8 @@ class Source:
             ]
             entries.append(
                 Collection(
-                    date=datetime.strptime(item["ophaaldatum"], "%Y-%m-%d").date(),
+                    date=datetime.strptime(
+                        item["ophaaldatum"], "%Y-%m-%d").date(),
                     t=waste_details[0]["title"],
                     icon=self._icons.get(waste_details[0]["icon"]),
                 )
