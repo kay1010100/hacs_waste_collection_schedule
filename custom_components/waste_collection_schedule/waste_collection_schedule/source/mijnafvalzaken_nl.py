@@ -27,7 +27,7 @@ TEST_CASES = {
     },
     "Castricum": {
         "postal_code": "1902HJ",
-        "house_number": "37",
+        "house_number": "35",
     },
 }
 
