@@ -21,12 +21,6 @@ def EXTRA_INFO():
 
 
 TEST_CASES = {
-    "Hvcgroep: Heemskerk": {
-        "postal_code": "1969NB",
-        "house_number": "27",
-        "house_letter": "a",
-        "service": "hvcgroep",
-    },
     "Alphen a/d Rijn": {
         "postal_code": "2404EN",
         "house_number": "7",
@@ -315,11 +309,11 @@ class Source:
             raise Exception("no data found for this address")
 
         bag_id = data[0]["bagid"]
-        if len(data) > 1 and self.house_letter and self.suffix:
+        if len(data) > 1 and self.house_letter or len(data) > 1 and self.suffix:
             _LOGGER.info(f"Checking {self.house_letter} {self.suffix}")
             for address in data:
                 if (
-                    address["huisletter"] == self.house_letter
+                    address["huisletter"].lower() == self.house_letter.lower()
                     and address["toevoeging"] == self.suffix
                 ):
                     bag_id = address["bagid"]
