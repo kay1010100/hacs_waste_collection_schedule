@@ -4,7 +4,7 @@ from datetime import datetime
 import requests
 from waste_collection_schedule import Collection  # type: ignore[attr-defined]
 
-TITLE = None
+TITLE = "Mijn Afval Zaken"
 DESCRIPTION = "Source for Mijn Afval Zaken waste management."
 URL = "https://www.mijnafvalzaken.nl/"
 
