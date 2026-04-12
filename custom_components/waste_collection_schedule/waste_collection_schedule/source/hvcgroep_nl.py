@@ -46,6 +46,12 @@ TEST_CASES = {
         "house_number": "1",
         "service": "hvcgroep",
     },
+    "Hvcgroep: Heemskerk": {
+        "postal_code": "1969NB",
+        "house_number": "27",
+        "house_letter": "A",
+        "service": "hvcgroep",
+    },
     "Reinis": {"postal_code": "3201AA", "house_number": "1", "service": "reinis"},
     "ZRD": {"postal_code": "4691DH", "house_number": "4", "service": "zrd"},
     "Hoorn": {"postal_code": "1628XA", "house_number": "1", "service": "hvcgroep"},
