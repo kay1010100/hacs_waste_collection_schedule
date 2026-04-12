@@ -26,6 +26,11 @@ TEST_CASES = {
         "house_number": "14",
         "service": "mijnafvalzaken",
     },
+    "Castricum": {
+        "postal_code": "1902HJ",
+        "house_number": "37",
+        "service": "mijnafvalzaken",
+    },
 }
 
 _LOGGER = logging.getLogger(__name__)
