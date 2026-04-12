@@ -24,12 +24,10 @@ TEST_CASES = {
     "Uitgeest": {
         "postal_code": "1911LB",
         "house_number": "14",
-        "service": "mijnafvalzaken",
     },
     "Castricum": {
         "postal_code": "1902HJ",
         "house_number": "37",
-        "service": "mijnafvalzaken",
     },
 }
 
