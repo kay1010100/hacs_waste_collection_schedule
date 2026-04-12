@@ -10,14 +10,11 @@ URL = "https://www.mijnafvalzaken.nl/"
 
 
 def EXTRA_INFO():
-    return [
-        {
-            "title": s["title"],
-            "url": get_main_url(s["api_url"]),
-            "default_params": {"service": extract_service_name(s["api_url"])},
-        }
-        for s in SERVICE_MAP
-    ]
+    return {
+        "title": "Mijnafvalzaken",
+        "url": "https://www.mijnafvalzaken.nl",
+        "country": "nl",
+    }
 
 
 TEST_CASES = {
@@ -60,12 +57,6 @@ def get_service_name_map():
     }
 
 
-def get_main_url(url):
-    x = url.split(".")[-2:]
-    x[0] = x[0].removeprefix("https://")
-    return "https://" + ".".join(x)
-
-
 class Source:
     def __init__(
         self, postal_code, house_number, house_letter="", suffix="", service="mijnafvalzaken"
@@ -78,7 +69,8 @@ class Source:
 
     def fetch(self):
         # Retrieve bagid (unique waste management identifier)
-        r = requests.get(f"{self._url}/adressen/{self.postal_code}:{self.house_number}")
+        r = requests.get(
+            f"{self._url}/adressen/{self.postal_code}:{self.house_number}")
         r.raise_for_status()
         data = r.json()
 
@@ -117,7 +109,8 @@ class Source:
             ]
             entries.append(
                 Collection(
-                    date=datetime.strptime(item["ophaaldatum"], "%Y-%m-%d").date(),
+                    date=datetime.strptime(
+                        item["ophaaldatum"], "%Y-%m-%d").date(),
                     t=waste_details[0]["title"],
                     icon=self._icons.get(waste_details[0]["icon"]),
                 )
