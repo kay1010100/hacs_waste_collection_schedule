@@ -4,17 +4,28 @@ from datetime import datetime
 import requests
 from waste_collection_schedule import Collection  # type: ignore[attr-defined]
 
-TITLE = None
-DESCRIPTION = "Source for mijnafvalzaken waste management."
+TITLE = "Mijn Afval Zaken"
+# TITLE = None
+DESCRIPTION = "Source for Mijn Afval Zaken waste management."
 URL = "https://www.mijnafvalzaken.nl/"
 
 
 def EXTRA_INFO():
-    return {
-        "title": "Mijnafvalzaken",
-        "url": "https://www.mijnafvalzaken.nl",
-        "country": "nl",
-    }
+    return [
+        {
+            "title": s["title"],
+            "url": get_main_url(s["api_url"]),
+            "default_params": {"service": extract_service_name(s["api_url"])},
+        }
+        for s in SERVICE_MAP
+    ]
+
+
+# ### Arguments affecting the configuration GUI ####
+
+HOW_TO_GET_ARGUMENTS_DESCRIPTION = {  # Optional dictionary to describe how to get the arguments, will be shown in the GUI configuration form above the input fields, does not need to be translated in all languages
+    "en": "INPUT ARGUMENTS ARE THE SAME AS THE ONES YOU FILL IN FOR YOUR HOME ADDRESS AT: https://www.mijnafvalwijzer.nl/",
+}
 
 
 TEST_CASES = {
@@ -24,7 +35,7 @@ TEST_CASES = {
     },
     "Castricum": {
         "postal_code": "1902HJ",
-        "house_number": "37",
+        "house_number": "35",
     },
 }
 
@@ -57,6 +68,12 @@ def get_service_name_map():
     }
 
 
+def get_main_url(url):
+    x = url.split(".")[-2:]
+    x[0] = x[0].removeprefix("https://")
+    return "https://" + ".".join(x)
+
+
 class Source:
     def __init__(
         self, postal_code, house_number, house_letter="", suffix="", service="mijnafvalzaken"
@@ -83,7 +100,7 @@ class Source:
             _LOGGER.info(f"Checking {self.house_letter} {self.suffix}")
             for address in data:
                 if (
-                    address["huisletter"] == self.house_letter
+                    address["huisletter"].lower() == self.house_letter.lower()
                     and address["toevoeging"] == self.suffix
                 ):
                     bag_id = address["bagid"]

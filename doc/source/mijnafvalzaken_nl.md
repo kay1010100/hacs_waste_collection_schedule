@@ -11,21 +11,20 @@ waste_collection_schedule:
       args:
         postal_code: POSTAL_CODE
         house_number: HOUSE_NUMBER
-        # service: SERVICE
 ```
 
 ### Configuration Variables
 
-**postal_code**  
+**postal_code**
 *(string) (required)*
 
-**house_number**  
+**house_number**
 *(string) (required)*
 
-**house_letter**  
+**house_letter**
 *(string) (optional)*
 
-**suffix**  
+**suffix**
 *(string) (optional)*
 
 ## Example
@@ -38,5 +37,4 @@ waste_collection_schedule:
       args:
         postal_code: 1911LB
         house_number: 14
-        # service: mijnafvalzaken
 ```

@@ -46,6 +46,12 @@ TEST_CASES = {
         "house_number": "1",
         "service": "hvcgroep",
     },
+    "Hvcgroep: Heemskerk": {
+        "postal_code": "1969NB",
+        "house_number": "27",
+        "house_letter": "A",
+        "service": "hvcgroep",
+    },
     "Reinis": {"postal_code": "3201AA", "house_number": "1", "service": "reinis"},
     "ZRD": {"postal_code": "4691DH", "house_number": "4", "service": "zrd"},
     "Hoorn": {"postal_code": "1628XA", "house_number": "1", "service": "hvcgroep"},
@@ -300,7 +306,8 @@ class Source:
 
     def fetch(self):
         # Retrieve bagid (unique waste management identifier)
-        r = requests.get(f"{self._url}/adressen/{self.postal_code}:{self.house_number}")
+        r = requests.get(
+            f"{self._url}/adressen/{self.postal_code}:{self.house_number}")
         r.raise_for_status()
         data = r.json()
 
@@ -313,7 +320,7 @@ class Source:
             _LOGGER.info(f"Checking {self.house_letter} {self.suffix}")
             for address in data:
                 if (
-                    address["huisletter"] == self.house_letter
+                    address["huisletter"].lower() == self.house_letter.lower()
                     and address["toevoeging"] == self.suffix
                 ):
                     bag_id = address["bagid"]
@@ -339,7 +346,8 @@ class Source:
             ]
             entries.append(
                 Collection(
-                    date=datetime.strptime(item["ophaaldatum"], "%Y-%m-%d").date(),
+                    date=datetime.strptime(
+                        item["ophaaldatum"], "%Y-%m-%d").date(),
                     t=waste_details[0]["title"],
                     icon=self._icons.get(waste_details[0]["icon"]),
                 )
