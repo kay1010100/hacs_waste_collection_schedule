@@ -1,6 +1,6 @@
 # Mijn Afvalzaken
 
-Support for schedules provided by [mijnafvalzaken.nl](https://www.mijnafvalzaken.nl/) and other Dutch municipalities.
+Support for schedules provided by [mijnafvalzaken.nl](https://www.mijnafvalzaken.nl/) for (BUCH Gemeente) Gemeente Bergen, Gemeente Uitgeest, Gemeente Castricum and Gemeente Heilo.
 
 ## Configuration via configuration.yaml
 
