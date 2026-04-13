@@ -31,8 +31,7 @@ def main():
     parser.add_argument(
         "-i", "--icon", action="store_true", help="Show waste type icon"
     )
-    parser.add_argument("--sorted", action="store_true",
-                        help="Sort output by date")
+    parser.add_argument("--sorted", action="store_true", help="Sort output by date")
     parser.add_argument("--weekday", action="store_true", help="Show weekday")
     parser.add_argument(
         "-t",
@@ -83,8 +82,7 @@ def main():
     for f in sorted(source_files):
         # iterate through all *.py files in waste_collection_schedule/source
         print(f"Testing source {f} ...")
-        module = importlib.import_module(
-            f"waste_collection_schedule.source.{f}")
+        module = importlib.import_module(f"waste_collection_schedule.source.{f}")
 
         # get all names within module
         names = set(dir(module))
@@ -109,8 +107,7 @@ def main():
         yaml_files = ics_yaml_dir.glob("*.yaml")
     elif args.yaml:
         # ICS yaml files specified
-        yaml_files = [Path(ics_yaml_dir, f).with_suffix(".yaml")
-                      for f in args.yaml]
+        yaml_files = [Path(ics_yaml_dir, f).with_suffix(".yaml") for f in args.yaml]
     elif args.source is None:
         # neither source nor ICS yaml files specified --> test all yaml files
         yaml_files = ics_yaml_dir.glob("*.yaml")
@@ -154,10 +151,9 @@ def test_fetch(module, name, tc, args):
 
         count = len(result)
         if count > 0:
-            print(f"  found {count} entries for {name}")
+            print(f"  found {bcolors.OKGREEN}{count}{bcolors.ENDC} entries for {name}")
         else:
-            print(
-                f"  found 0 entries for {name}")
+            print(f"  found {bcolors.WARNING}0{bcolors.ENDC} entries for {name}")
 
         # test if source is returning the correct date format
         if len(list(filter(lambda x: type(x.date) is not datetime.date, result))) > 0:
@@ -166,13 +162,11 @@ def test_fetch(module, name, tc, args):
             )
 
         if args.list:
-            result = sorted(
-                result, key=lambda x: x.date) if args.sorted else result
+            result = sorted(result, key=lambda x: x.date) if args.sorted else result
             for x in result:
                 icon_str = f" [{x.icon}]" if args.icon else ""
                 weekday_str = x.date.strftime("%a ") if args.weekday else ""
-                print(
-                    f"    {x.date.isoformat()} {weekday_str}: {x.type}{icon_str}")
+                print(f"    {x.date.isoformat()} {weekday_str}: {x.type}{icon_str}")
     except KeyboardInterrupt:
         exit()
     except Exception as exc:
