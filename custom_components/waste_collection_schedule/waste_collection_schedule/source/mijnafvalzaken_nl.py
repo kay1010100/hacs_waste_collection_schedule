@@ -96,7 +96,7 @@ class Source:
             raise Exception("no data found for this address")
 
         bag_id = data[0]["bagid"]
-        if len(data) > 1 and self.house_letter and self.suffix:
+        if len(data) > 1 and (self.house_letter or self.suffix):
             _LOGGER.info(f"Checking {self.house_letter} {self.suffix}")
             for address in data:
                 if (
