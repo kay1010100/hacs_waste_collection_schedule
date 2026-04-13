@@ -30,7 +30,6 @@ waste_collection_schedule:
 ## Example
 
 ```yaml
-# mijnafvalzaken
 waste_collection_schedule:
   sources:
     - name: mijnafvalzaken_nl
