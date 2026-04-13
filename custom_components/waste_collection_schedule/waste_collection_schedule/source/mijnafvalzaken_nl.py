@@ -21,6 +21,13 @@ def EXTRA_INFO():
     ]
 
 
+# ### Arguments affecting the configuration GUI ####
+
+HOW_TO_GET_ARGUMENTS_DESCRIPTION = {  # Optional dictionary to describe how to get the arguments, will be shown in the GUI configuration form above the input fields, does not need to be translated in all languages
+    "en": "INPUT ARGUMENTS ARE THE SAME AS THE ONES YOU FILL IN FOR YOUR HOME ADDRESS AT: https://www.mijnafvalwijzer.nl/",
+}
+
+
 TEST_CASES = {
     "Uitgeest": {
         "postal_code": "1911LB",

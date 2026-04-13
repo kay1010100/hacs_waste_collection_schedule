@@ -2800,6 +2800,13 @@
     },
     "urls": {}
   },
+  "mijnafvalzaken_nl": {
+    "docs_url": "https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/mijnafvalzaken_nl.md",
+    "howto": {
+      "en": "INPUT ARGUMENTS ARE THE SAME AS THE ONES YOU FILL IN FOR YOUR HOME ADDRESS AT: https://www.mijnafvalzaken.nl/"
+    },
+    "urls": {}
+  },
   "afvalstoffendienst_nl": {
     "docs_url": "https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/afvalstoffendienst_nl.md",
     "howto": {},

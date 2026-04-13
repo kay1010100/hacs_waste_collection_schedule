@@ -13447,6 +13447,12 @@
       "id": "mijnafvalwijzer_nl"
     },
     {
+      "title": "Afval Zaken",
+      "module": "mijnafvalzaken_nl",
+      "default_params": {},
+      "id": "mijnafvalzaken_nl"
+    },
+    {
       "title": "Afvalstoffendienst.nl",
       "module": "afvalstoffendienst_nl",
       "default_params": {},
