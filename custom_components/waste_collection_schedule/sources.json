@@ -435,6 +435,12 @@
       "id": "frwa_com_au"
     },
     {
+      "title": "City of Vincent",
+      "module": "vincent_wa_gov_au",
+      "default_params": {},
+      "id": "vincent_wa_gov_au"
+    },
+    {
       "title": "City of Wanneroo",
       "module": "wanneroo_wa_gov_au",
       "default_params": {},
@@ -2779,6 +2785,12 @@
       "module": "edlitz_at",
       "default_params": {},
       "id": "edlitz_at"
+    },
+    {
+      "title": "Marktgemeinde Eggelsberg",
+      "module": "eggelsberg_at",
+      "default_params": {},
+      "id": "eggelsberg_at"
     },
     {
       "title": "Marktgemeinde G\u00f6ssendorf",
@@ -12364,6 +12376,12 @@
       "id": "junker_app"
     },
     {
+      "title": "NET SpA - Udine",
+      "module": "junker_app",
+      "default_params": {},
+      "id": "junker_app"
+    },
+    {
       "title": "Nicosia - Leukosia",
       "module": "junker_app",
       "default_params": {},
@@ -16818,6 +16836,12 @@
       "id": "lbbd_gov_uk"
     },
     {
+      "title": "London Borough of Barnet",
+      "module": "barnet_gov_uk",
+      "default_params": {},
+      "id": "barnet_gov_uk"
+    },
+    {
       "title": "London Borough of Bexley",
       "module": "bexley_gov_uk",
       "default_params": {},
@@ -17474,10 +17498,12 @@
       "id": "stevenage_gov_uk"
     },
     {
-      "title": "Stirling.gov.uk",
-      "module": "stirling_uk",
-      "default_params": {},
-      "id": "stirling_uk"
+      "title": "Stirling Council, UK",
+      "module": "ics",
+      "default_params": {
+        "split_at": "\\, (?:and )?|(?: and )"
+      },
+      "id": "ics_recollect"
     },
     {
       "title": "Stockport Council",
