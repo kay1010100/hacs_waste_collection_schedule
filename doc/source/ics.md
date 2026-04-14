@@ -161,6 +161,8 @@ This source has been successfully tested with the following service providers:
 - [CURBit St. John's](/doc/ics/recollect.md) / curbitstjohns.ca
 - [District of Saanich, BC](/doc/ics/recollect.md) / saanich.ca
 - [Durham Region, ON](/doc/ics/recollect.md) / durham.ca
+- [Eco360 (Greater Moncton, NB)](/doc/ics/recollect.md) / eco360.ca
+- [Gatineau, QC](/doc/ics/recollect.md) / gatineau.ca
 - [Georgina (ON)](/doc/ics/georgina_ca.md) / georgina.ca
 - [Halifax, NS](/doc/ics/recollect.md) / halifax.ca
 - [Halton Region, ON](/doc/ics/recollect.md) / halton.ca
@@ -175,11 +177,14 @@ This source has been successfully tested with the following service providers:
 - [Richmond, BC, Canada](/doc/ics/recollect.md) / richmond.ca
 - [Rivière-Beaudette](/doc/ics/riviere_beaudette_com.md) / riviere-beaudette.com
 - [RM of Morris, MB](/doc/ics/recollect.md) / mwmenviro.ca
+- [Saint-Jean-Sur-Richelieu, QC](/doc/ics/recollect.md) / compo.qc.ca
 - [Saint-Jérome (QC)](/doc/ics/vsj_ca.md) / vsj.ca
+- [Saskatoon, SK](/doc/ics/recollect.md) / saskatoon.ca
 - [St Clair Township, ON](/doc/ics/recollect.md) / stclairtownship.ca
 - [Strathcona County, ON](/doc/ics/recollect.md) / strathcona.ca
 - [Valleyfield, Québec](/doc/ics/valleyfiled_qc_ca.md) / ville.valleyfield.qc.ca
 - [Waste Wise APPS](/doc/ics/recollect.md) / edmonton.ca
+- [Whitby, ON](/doc/ics/recollect.md) / whitby.ca
 
 ### Czech Republic
 
@@ -372,6 +377,7 @@ This source has been successfully tested with the following service providers:
 ### Italy
 
 - [Contarina S.p.A](/doc/ics/contarina_it.md) / contarina.it
+- [Ecolan - Lanciano](/doc/ics/ecolan_it.md) / ecolan.it
 
 ### Luxembourg
 
@@ -433,6 +439,7 @@ This source has been successfully tested with the following service providers:
 - [City of Flagstaff, AZ](/doc/ics/recyclebycity_com.md) / flagstaff.az.gov
 - [City of Gastonia, NC](/doc/ics/recollect.md) / gastonianc.gov
 - [City of Georgetown, TX](/doc/ics/recollect.md) / texasdisposal.com/waste-wizard
+- [City of Houston, TX](/doc/ics/recollect.md) / houstontx.gov
 - [City of Lowell, MA](/doc/ics/recollect.md) / lowellma.gov
 - [City of McKinney, TX](/doc/ics/recollect.md) / mckinneytexas.org
 - [Davenport, Iowa, USA](/doc/ics/recollect.md) / davenportiowa.com
