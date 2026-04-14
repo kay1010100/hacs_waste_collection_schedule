@@ -3677,6 +3677,12 @@
       "id": "infeo_at"
     },
     {
+      "title": "Stadtgemeinde Klosterneuburg",
+      "module": "klosterneuburg_at",
+      "default_params": {},
+      "id": "klosterneuburg_at"
+    },
+    {
       "title": "Stadtgemeinde Traiskirchen",
       "module": "ics",
       "default_params": {},
@@ -4260,6 +4266,15 @@
       "id": "recyclecoach_com"
     },
     {
+      "title": "Brantford (ON)",
+      "module": "recyclecoach_com",
+      "default_params": {
+        "district_id": "BRAN",
+        "project_id": "3195"
+      },
+      "id": "recyclecoach_com"
+    },
+    {
       "title": "Burnaby (BC)",
       "module": "recyclecoach_com",
       "default_params": {
@@ -4298,6 +4313,12 @@
         "state": "Ontario"
       },
       "id": "recyclecoach_com"
+    },
+    {
+      "title": "City of Barrie",
+      "module": "barrie_ca",
+      "default_params": {},
+      "id": "barrie_ca"
     },
     {
       "title": "City of Edmonton, AB",
@@ -4425,6 +4446,31 @@
       "id": "ics_recollect"
     },
     {
+      "title": "East Gwillimbury (ON)",
+      "module": "recyclecoach_com",
+      "default_params": {
+        "district_id": "EASTG",
+        "project_id": "586"
+      },
+      "id": "recyclecoach_com"
+    },
+    {
+      "title": "Eco360 (Greater Moncton, NB)",
+      "module": "ics",
+      "default_params": {
+        "split_at": "\\, (?:and )?|(?: and )"
+      },
+      "id": "ics_recollect"
+    },
+    {
+      "title": "Gatineau, QC",
+      "module": "ics",
+      "default_params": {
+        "split_at": "\\, (?:and )?|(?: and )"
+      },
+      "id": "ics_recollect"
+    },
+    {
       "title": "Georgina (ON)",
       "module": "ics",
       "default_params": {
@@ -4454,6 +4500,24 @@
       "default_params": {
         "city": "Kawartha Lakes",
         "state": "Ontario"
+      },
+      "id": "recyclecoach_com"
+    },
+    {
+      "title": "Kelowna (BC)",
+      "module": "recyclecoach_com",
+      "default_params": {
+        "district_id": "Kelowna",
+        "project_id": "502"
+      },
+      "id": "recyclecoach_com"
+    },
+    {
+      "title": "LaSalle (ON)",
+      "module": "recyclecoach_com",
+      "default_params": {
+        "district_id": "LAS",
+        "project_id": "583"
       },
       "id": "recyclecoach_com"
     },
@@ -4628,10 +4692,26 @@
       "id": "ics_recollect"
     },
     {
+      "title": "Saint-Jean-Sur-Richelieu, QC",
+      "module": "ics",
+      "default_params": {
+        "split_at": "\\, (?:and )?|(?: and )"
+      },
+      "id": "ics_recollect"
+    },
+    {
       "title": "Saint-J\u00e9rome (QC)",
       "module": "ics",
       "default_params": {},
       "id": "ics_vsj_ca"
+    },
+    {
+      "title": "Saskatoon, SK",
+      "module": "ics",
+      "default_params": {
+        "split_at": "\\, (?:and )?|(?: and )"
+      },
+      "id": "ics_recollect"
     },
     {
       "title": "St Clair Township, ON",
@@ -4656,6 +4736,15 @@
       "id": "toronto_ca"
     },
     {
+      "title": "Township of Langley (BC)",
+      "module": "recyclecoach_com",
+      "default_params": {
+        "district_id": "LANGL",
+        "project_id": "521"
+      },
+      "id": "recyclecoach_com"
+    },
+    {
       "title": "Valleyfield, Qu\u00e9bec",
       "module": "ics",
       "default_params": {},
@@ -4672,6 +4761,14 @@
     },
     {
       "title": "Waste Wise APPS",
+      "module": "ics",
+      "default_params": {
+        "split_at": "\\, (?:and )?|(?: and )"
+      },
+      "id": "ics_recollect"
+    },
+    {
+      "title": "Whitby, ON",
       "module": "ics",
       "default_params": {
         "split_at": "\\, (?:and )?|(?: and )"
@@ -9578,6 +9675,12 @@
       "id": "jumomind_de"
     },
     {
+      "title": "RegioEntsorgung St\u00e4dteregion Aachen",
+      "module": "regioentsorgung_de",
+      "default_params": {},
+      "id": "regioentsorgung_de"
+    },
+    {
       "title": "Reichelsheim",
       "module": "reso_gmbh_de",
       "default_params": {
@@ -11686,6 +11789,12 @@
       "module": "junker_app",
       "default_params": {},
       "id": "junker_app"
+    },
+    {
+      "title": "Ecolan - Lanciano",
+      "module": "ics",
+      "default_params": {},
+      "id": "ics_ecolan_it"
     },
     {
       "title": "Econova Srl",
@@ -16566,6 +16675,12 @@
       "id": "elmbridge_gov_uk"
     },
     {
+      "title": "Enfield Council",
+      "module": "enfield_gov_uk",
+      "default_params": {},
+      "id": "enfield_gov_uk"
+    },
+    {
       "title": "Environment First",
       "module": "environmentfirst_co_uk",
       "default_params": {},
@@ -16654,6 +16769,12 @@
       "module": "glasgow_gov_uk",
       "default_params": {},
       "id": "glasgow_gov_uk"
+    },
+    {
+      "title": "Gosport Borough Council",
+      "module": "gosport_gov_uk",
+      "default_params": {},
+      "id": "gosport_gov_uk"
     },
     {
       "title": "Greater Cambridge Waste, UK",
@@ -16902,6 +17023,12 @@
       "id": "newham_gov_uk"
     },
     {
+      "title": "London Borough of Southwark",
+      "module": "southwark_gov_uk",
+      "default_params": {},
+      "id": "southwark_gov_uk"
+    },
+    {
       "title": "Luton",
       "module": "apps_imactivate_com",
       "default_params": {
@@ -17140,6 +17267,12 @@
       "id": "northyorks_harrogate_gov_uk"
     },
     {
+      "title": "North Yorkshire Council - Richmondshire",
+      "module": "richmondshire_gov_uk",
+      "default_params": {},
+      "id": "richmondshire_gov_uk"
+    },
+    {
       "title": "North Yorkshire Council - Ryedale",
       "module": "northyorks_ryedale_gov_uk",
       "default_params": {},
@@ -17254,12 +17387,6 @@
       "module": "rctcbc_gov_uk",
       "default_params": {},
       "id": "rctcbc_gov_uk"
-    },
-    {
-      "title": "Richmondshire District Council",
-      "module": "richmondshire_gov_uk",
-      "default_params": {},
-      "id": "richmondshire_gov_uk"
     },
     {
       "title": "Rochdale Borough Council",
@@ -17957,6 +18084,14 @@
       "id": "ics_recollect"
     },
     {
+      "title": "City of Houston, TX",
+      "module": "ics",
+      "default_params": {
+        "split_at": "\\, (?:and )?|(?: and )"
+      },
+      "id": "ics_recollect"
+    },
+    {
       "title": "City of Los Angeles, CA",
       "module": "lacity_gov",
       "default_params": {},
@@ -18088,6 +18223,15 @@
       "id": "recyclecoach_com"
     },
     {
+      "title": "Plainville (CT)",
+      "module": "recyclecoach_com",
+      "default_params": {
+        "district_id": "PLA",
+        "project_id": "3066"
+      },
+      "id": "recyclecoach_com"
+    },
+    {
       "title": "ReCollect",
       "module": "ics",
       "default_params": {
@@ -18172,6 +18316,12 @@
         "split_at": "\\, (?:and )?|(?: and )"
       },
       "id": "ics_recollect"
+    },
+    {
+      "title": "Village of Sunbury, Ohio",
+      "module": "sunbury_ohio_org",
+      "default_params": {},
+      "id": "sunbury_ohio_org"
     },
     {
       "title": "Waste Connections",
