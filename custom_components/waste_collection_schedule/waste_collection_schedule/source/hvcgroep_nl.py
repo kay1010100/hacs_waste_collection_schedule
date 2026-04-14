@@ -251,6 +251,16 @@ SERVICE_MAP = [
         },
     },
     {
+        "title": "Mijn Afval Zaken - BUCH",
+        "api_url": "https://www.mijnafvalzaken.nl",
+        "icons": {
+            "plastic-blik-drinkpak": "mdi:recycle",
+            "gft": "mdi:leaf",
+            "papier-en-karton": "mdi:archive",
+            "restafval": "mdi:trash-can",
+        },
+    },
+    {
         "title": "Reinis",
         "api_url": "https://reinis.nl",
         "icons": {
@@ -268,16 +278,6 @@ SERVICE_MAP = [
             "pet pak blik": "mdi:recycle",  # PMD
             "zak rest rest": "mdi:trash-can",  # Restafval
             "karton": "mdi:archive",  # Papier en karton
-        },
-    },
-    {
-        "title": "Mijn Afval Zaken - BUCH",
-        "api_url": "https://www.mijnafvalzaken.nl",
-        "icons": {
-            "plastic-blik-drinkpak": "mdi:recycle",
-            "gft": "mdi:leaf",
-            "papier-en-karton": "mdi:archive",
-            "restafval": "mdi:trash-can",
         },
     },
 ]

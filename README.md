@@ -2070,7 +2070,6 @@ If your service provider is not listed, feel free to open a [source request issu
 
 - [ACV Group](/doc/source/ximmio_nl.md) / acv-afvalkalender.nl
 - [Afval Wijzer](/doc/source/mijnafvalwijzer_nl.md) / mijnafvalwijzer.nl
-- [Afval Zaken](/doc/source/mijnafvalzaken_nl.md) / mijnafvalzaken.nl
 - [Afvalstoffendienst.nl](/doc/source/afvalstoffendienst_nl.md) / afvalstoffendienst.nl
 - [Alpen an den Rijn](/doc/source/hvcgroep_nl.md) / alphenaandenrijn.nl
 - [Area Afval](/doc/source/ximmio_nl.md) / area-afval.nl
@@ -2109,7 +2108,7 @@ If your service provider is not listed, feel free to open a [source request issu
 - [HVC Groep](/doc/source/hvcgroep_nl.md) / hvcgroep.nl
 - [Meerlanden](/doc/source/ximmio_nl.md) / meerlanden.nl
 - [Mijn Blink](/doc/source/ximmio_nl.md) / mijnblink.nl
-- [Mijn Afval Zaken - BUCH](/doc/source/mijnafvalzaken_nl.md) / mijnafvalzaken.nl
+- [Mijn Afval Zaken - BUCH](/doc/source/hvcgroep_nl.md) / mijnafvalzaken.nl
 - [PreZero](/doc/source/hvcgroep_nl.md) / prezero.nl
 - [Purmerend](/doc/source/hvcgroep_nl.md) / purmerend.nl
 - [RAD BV](/doc/source/ximmio_nl.md) / radbv.nl
