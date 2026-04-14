@@ -13330,7 +13330,7 @@
       "id": "mijnafvalwijzer_nl"
     },
     {
-      "title": "Mijn Afval Zaken",
+      "title": "Mijn Afval Zaken - BUCH",
       "module": "hvcgroep_nl",
       "default_params": {
         "service": "mijnafvalzaken"},
