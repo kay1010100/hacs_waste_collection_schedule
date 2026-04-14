@@ -2124,6 +2124,7 @@ If your service provider is not listed, feel free to open a [source request issu
 - [HVC Groep](/doc/source/hvcgroep_nl.md) / hvcgroep.nl
 - [Meerlanden](/doc/source/ximmio_nl.md) / meerlanden.nl
 - [Mijn Blink](/doc/source/ximmio_nl.md) / mijnblink.nl
+- [Mijn Afval Zaken - BUCH](/doc/source/mijnafvalzaken_nl.md) / mijnafvalzaken.nl
 - [PreZero](/doc/source/hvcgroep_nl.md) / prezero.nl
 - [Purmerend](/doc/source/hvcgroep_nl.md) / purmerend.nl
 - [RAD BV](/doc/source/ximmio_nl.md) / radbv.nl
