@@ -49,6 +49,10 @@ TEST_CASES = {
     "Reinis": {"postal_code": "3201AA", "house_number": "1", "service": "reinis"},
     "ZRD": {"postal_code": "4691DH", "house_number": "4", "service": "zrd"},
     "Hoorn": {"postal_code": "1628XA", "house_number": "1", "service": "hvcgroep"},
+    "Uitgeest": {
+        "postal_code": "1911LB",
+        "house_number": "14",
+    },
 }
 
 _LOGGER = logging.getLogger(__name__)
@@ -264,6 +268,16 @@ SERVICE_MAP = [
             "pet pak blik": "mdi:recycle",  # PMD
             "zak rest rest": "mdi:trash-can",  # Restafval
             "karton": "mdi:archive",  # Papier en karton
+        },
+    },
+    {
+        "title": "Mijn Afval Zaken - BUCH",
+        "api_url": "https://www.mijnafvalzaken.nl",
+        "icons": {
+            "plastic-blik-drinkpak": "mdi:recycle",
+            "gft": "mdi:leaf",
+            "papier-en-karton": "mdi:archive",
+            "restafval": "mdi:trash-can",
         },
     },
 ]
