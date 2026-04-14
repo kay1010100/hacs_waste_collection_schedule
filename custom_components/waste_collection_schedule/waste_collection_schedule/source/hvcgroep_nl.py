@@ -46,15 +46,13 @@ TEST_CASES = {
         "house_number": "1",
         "service": "hvcgroep",
     },
-    "Hvcgroep: Heemskerk": {
-        "postal_code": "1969NB",
-        "house_number": "27",
-        "house_letter": "A",
-        "service": "hvcgroep",
-    },
     "Reinis": {"postal_code": "3201AA", "house_number": "1", "service": "reinis"},
     "ZRD": {"postal_code": "4691DH", "house_number": "4", "service": "zrd"},
     "Hoorn": {"postal_code": "1628XA", "house_number": "1", "service": "hvcgroep"},
+    "Uitgeest": {
+        "postal_code": "1911LB",
+        "house_number": "14",
+    },
 }
 
 _LOGGER = logging.getLogger(__name__)
@@ -253,6 +251,16 @@ SERVICE_MAP = [
         },
     },
     {
+        "title": "Mijn Afval Zaken - BUCH",
+        "api_url": "https://www.mijnafvalzaken.nl",
+        "icons": {
+            "plastic-blik-drinkpak": "mdi:recycle",
+            "gft": "mdi:leaf",
+            "papier-en-karton": "mdi:archive",
+            "restafval": "mdi:trash-can",
+        },
+    },
+    {
         "title": "Reinis",
         "api_url": "https://reinis.nl",
         "icons": {
@@ -306,8 +314,7 @@ class Source:
 
     def fetch(self):
         # Retrieve bagid (unique waste management identifier)
-        r = requests.get(
-            f"{self._url}/adressen/{self.postal_code}:{self.house_number}")
+        r = requests.get(f"{self._url}/adressen/{self.postal_code}:{self.house_number}")
         r.raise_for_status()
         data = r.json()
 
@@ -346,8 +353,7 @@ class Source:
             ]
             entries.append(
                 Collection(
-                    date=datetime.strptime(
-                        item["ophaaldatum"], "%Y-%m-%d").date(),
+                    date=datetime.strptime(item["ophaaldatum"], "%Y-%m-%d").date(),
                     t=waste_details[0]["title"],
                     icon=self._icons.get(waste_details[0]["icon"]),
                 )

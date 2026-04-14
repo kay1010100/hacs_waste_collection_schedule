@@ -13439,10 +13439,11 @@
       "id": "mijnafvalwijzer_nl"
     },
     {
-      "title": "Afval Zaken",
-      "module": "mijnafvalzaken_nl",
-      "default_params": {},
-      "id": "mijnafvalzaken_nl"
+      "title": "Mijn Afval Zaken",
+      "module": "hvcgroep_nl",
+      "default_params": {
+        "service": "mijnafvalzaken"},
+      "id": "hvcgroep_nl"
     },
     {
       "title": "Afvalstoffendienst.nl",
