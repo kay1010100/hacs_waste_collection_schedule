@@ -629,6 +629,7 @@ If your service provider is not listed, feel free to open a [source request issu
 - [St. Urban](/doc/source/citiesapps_com.md) / sturban.at
 - [St. Veit in der Südsteiermark](/doc/source/citiesapps_com.md) / st-veit-suedsteiermark.gv.at
 - [Stadt Salzburg](/doc/source/infeo_at.md) / stadt-salzburg.at
+- [Stadtgemeinde Klosterneuburg](/doc/source/klosterneuburg_at.md) / klosterneuburg.at/Natur_Umwelt/Recycling/Muellabfuhr/Muellabfuhrkalender
 - [Stadtgemeinde Traiskirchen](/doc/ics/traiskirchen_gv_at.md) / traiskirchen.gv.at
 - [Stadtservice Korneuburg](/doc/source/korneuburg_stadtservice_at.md) / korneuburg.gv.at
 - [Stall](/doc/ics/muellapp_com.md) / muellapp.com
@@ -735,11 +736,13 @@ If your service provider is not listed, feel free to open a [source request issu
 <summary>Canada</summary>
 
 - [Aurora (ON)](/doc/source/recyclecoach_com.md) / aurora.ca
+- [Brantford (ON)](/doc/source/recyclecoach_com.md) / brantford.ca
 - [Burnaby (BC)](/doc/source/recyclecoach_com.md) / burnaby.ca
 - [Calgary (AB)](/doc/source/calgary_ca.md) / calgary.ca
 - [Calgary, AB](/doc/ics/recollect.md) / calgary.ca
 - [Castlegar, BC](/doc/ics/recollect.md) / castlegar.ca
 - [Chatham-Kent (ON)](/doc/source/recyclecoach_com.md) / chatham-kent.ca
+- [City of Barrie](/doc/source/barrie_ca.md) / barrie.ca/services-payments/garbage-recycling-organics/curbside-collection/collection-schedules
 - [City of Edmonton, AB](/doc/ics/recollect.md) / edmonton.ca
 - [City of Greater Sudbury, ON](/doc/ics/recollect.md) / greatersudbury.ca
 - [City of Guelph, ON](/doc/ics/recollect.md) / guelph.ca
@@ -756,10 +759,15 @@ If your service provider is not listed, feel free to open a [source request issu
 - [Delta (BC)](/doc/source/recyclecoach_com.md) / delta.ca
 - [District of Saanich, BC](/doc/ics/recollect.md) / saanich.ca
 - [Durham Region, ON](/doc/ics/recollect.md) / durham.ca
+- [East Gwillimbury (ON)](/doc/source/recyclecoach_com.md) / eastgwillimbury.ca
+- [Eco360 (Greater Moncton, NB)](/doc/ics/recollect.md) / eco360.ca
+- [Gatineau, QC](/doc/ics/recollect.md) / gatineau.ca
 - [Georgina (ON)](/doc/ics/georgina_ca.md) / georgina.ca
 - [Halifax, NS](/doc/ics/recollect.md) / halifax.ca
 - [Halton Region, ON](/doc/ics/recollect.md) / halton.ca
 - [Kawartha Lakes (ON)](/doc/source/recyclecoach_com.md) / kawarthalakes.ca
+- [Kelowna (BC)](/doc/source/recyclecoach_com.md) / rdco.com
+- [LaSalle (ON)](/doc/source/recyclecoach_com.md) / lasalle.ca
 - [London (ON)](/doc/source/recyclecoach_com.md) / london.ca
 - [Longueuil (QC)](/doc/ics/longueuil_quebec.md) / longueuil.quebec
 - [Lévis / Québec](/doc/ics/ville_levis_qc_ca.md) / ville.levis.qc.ca
@@ -784,13 +792,17 @@ If your service provider is not listed, feel free to open a [source request issu
 - [Richmond, BC, Canada](/doc/ics/recollect.md) / richmond.ca
 - [Rivière-Beaudette](/doc/ics/riviere_beaudette_com.md) / riviere-beaudette.com
 - [RM of Morris, MB](/doc/ics/recollect.md) / mwmenviro.ca
+- [Saint-Jean-Sur-Richelieu, QC](/doc/ics/recollect.md) / compo.qc.ca
 - [Saint-Jérome (QC)](/doc/ics/vsj_ca.md) / vsj.ca
+- [Saskatoon, SK](/doc/ics/recollect.md) / saskatoon.ca
 - [St Clair Township, ON](/doc/ics/recollect.md) / stclairtownship.ca
 - [Strathcona County, ON](/doc/ics/recollect.md) / strathcona.ca
 - [Toronto (ON)](/doc/source/toronto_ca.md) / toronto.ca
+- [Township of Langley (BC)](/doc/source/recyclecoach_com.md) / tol.ca
 - [Valleyfield, Québec](/doc/ics/valleyfiled_qc_ca.md) / ville.valleyfield.qc.ca
 - [Vaughan (ON)](/doc/source/recyclecoach_com.md) / vaughan.ca
 - [Waste Wise APPS](/doc/ics/recollect.md) / edmonton.ca
+- [Whitby, ON](/doc/ics/recollect.md) / whitby.ca
 - [Winnipeg (MB)](/doc/source/myutility_winnipeg_ca.md) / myutility.winnipeg.ca
 </details>
 
@@ -1471,6 +1483,7 @@ If your service provider is not listed, feel free to open a [source request issu
 - [Pullach im Isartal](/doc/source/awido_de.md) / pullach.de
 - [Pöring (Zorneding)](/doc/source/awido_de.md) / lra-ebe.de
 - [Recklinghausen](/doc/source/jumomind_de.md) / zbh-ksr.de
+- [RegioEntsorgung Städteregion Aachen](/doc/source/regioentsorgung_de.md) / regioentsorgung.de
 - [Reichelsheim](/doc/source/reso_gmbh_de.md) / reso-gmbh.de
 - [Remondis Rheinland](/doc/source/app_abfallplus_de.md) / Abfall+ App: rheinland
 - [RESO](/doc/source/reso_gmbh_de.md) / reso-gmbh.de
@@ -1792,6 +1805,7 @@ If your service provider is not listed, feel free to open a [source request issu
 - [Dolomiti Ambiente Srl](/doc/source/junker_app.md) / junker.app
 - [Ecoambiente Srl](/doc/source/junker_app.md) / junker.app
 - [EcoInnova Srl](/doc/source/junker_app.md) / junker.app
+- [Ecolan - Lanciano](/doc/ics/ecolan_it.md) / ecolan.it
 - [Econova Srl](/doc/source/junker_app.md) / junker.app
 - [Empoli](/doc/source/aliaserviziambientali_it.md) / aliaserviziambientali.it
 - [Enna - Eco Enna Servizi](/doc/source/junker_app.md) / junker.app
@@ -2567,6 +2581,7 @@ If your service provider is not listed, feel free to open a [source request issu
 - [Eastbourne Borough Council](/doc/source/environmentfirst_co_uk.md) / lewes-eastbourne.gov.uk
 - [Eastleigh Borough Council](/doc/source/eastleigh_gov_uk.md) / eastleigh.gov.uk
 - [Elmbridge Borough Council](/doc/source/elmbridge_gov_uk.md) / elmbridge.gov.uk
+- [Enfield Council](/doc/source/enfield_gov_uk.md) / enfield.gov.uk/services/rubbish-and-recycling/find-my-collection-day
 - [Environment First](/doc/source/environmentfirst_co_uk.md) / environmentfirst.co.uk
 - [Erewash Borough Council](/doc/source/erewash_gov_uk.md) / erewash.gov.uk
 - [Exeter City Council](/doc/source/exeter_gov_uk.md) / exeter.gov.uk
@@ -2582,6 +2597,7 @@ If your service provider is not listed, feel free to open a [source request issu
 - [Gateshead Council](/doc/source/gateshead_gov_uk.md) / gateshead.gov.uk
 - [Gedling Borough Council (unofficial)](/doc/ics/gedling_gov_uk.md) / gbcbincalendars.co.uk
 - [Glasgow City Council](/doc/source/glasgow_gov_uk.md) / glasgow.gov.uk
+- [Gosport Borough Council](/doc/source/gosport_gov_uk.md) / gosport.gov.uk
 - [Greater Cambridge Waste, UK](/doc/source/greater_cambridge_waste_org.md) / greatercambridgewaste.org
 - [Guildford Borough Council](/doc/source/guildford_gov_uk.md) / guildford.gov.uk
 - [Gwynedd](/doc/source/gwynedd_gov_uk.md) / gwynedd.gov.uk
@@ -2622,6 +2638,7 @@ If your service provider is not listed, feel free to open a [source request issu
 - [London Borough of Merton (New)](/doc/ics/merton_gov_uk.md) / merton.gov.uk
 - [London Borough of Merton (Old)](/doc/source/merton_gov_uk.md) / merton.gov.uk
 - [London Borough of Newham](/doc/source/newham_gov_uk.md) / newham.gov.uk
+- [London Borough of Southwark](/doc/source/southwark_gov_uk.md) / southwark.gov.uk
 - [Luton](/doc/source/apps_imactivate_com.md) / luton.gov.uk
 - [Maidstone Borough Council](/doc/source/maidstone_gov_uk.md) / maidstone.gov.uk
 - [Maldon District Council](/doc/source/maldon_gov_uk.md) / maldon.gov.uk
@@ -2660,6 +2677,7 @@ If your service provider is not listed, feel free to open a [source request issu
 - [North Yorkshire Council - Craven](/doc/source/northyorks_craven_gov_uk.md) / northyorks.gov.uk
 - [North Yorkshire Council - Hambleton](/doc/source/northyorks_hambleton_gov_uk.md) / northyorks.gov.uk
 - [North Yorkshire Council - Harrogate](/doc/source/northyorks_harrogate_gov_uk.md) / secure.harrogate.gov.uk
+- [North Yorkshire Council - Richmondshire](/doc/source/richmondshire_gov_uk.md) / northyorks.gov.uk
 - [North Yorkshire Council - Ryedale](/doc/source/northyorks_ryedale_gov_uk.md) / northyorks.gov.uk
 - [North Yorkshire Council - Scarborough](/doc/source/northyorks_scarborough_gov_uk.md) / northyorks.gov.uk
 - [North Yorkshire Council - Selby](/doc/source/northyorks_selby_gov_uk.md) / northyorks.gov.uk
@@ -2679,7 +2697,6 @@ If your service provider is not listed, feel free to open a [source request issu
 - [Reigate & Banstead Borough Council](/doc/source/reigatebanstead_gov_uk.md) / reigate-banstead.gov.uk
 - [Renfrewshire Council](/doc/source/renfrewshire_gov_uk.md) / renfrewshire.gov.uk
 - [Rhondda Cynon Taf County Borough Council](/doc/source/rctcbc_gov_uk.md) / rctcbc.gov.uk
-- [Richmondshire District Council](/doc/source/richmondshire_gov_uk.md) / richmondshire.gov.uk
 - [Rochdale Borough Council](/doc/source/rochdale_gov_uk.md) / rochdale.gov.uk
 - [Rother District Council](/doc/source/rother_gov_uk.md) / rother.gov.uk
 - [Rotherham](/doc/source/apps_imactivate_com.md) / rotherham.gov.uk
@@ -2793,6 +2810,7 @@ If your service provider is not listed, feel free to open a [source request issu
 - [City of Flagstaff, AZ](/doc/ics/recyclebycity_com.md) / flagstaff.az.gov
 - [City of Gastonia, NC](/doc/ics/recollect.md) / gastonianc.gov
 - [City of Georgetown, TX](/doc/ics/recollect.md) / texasdisposal.com/waste-wizard
+- [City of Houston, TX](/doc/ics/recollect.md) / houstontx.gov
 - [City of Los Angeles, CA](/doc/source/lacity_gov.md) / lacitysan.org
 - [City of Lowell, MA](/doc/ics/recollect.md) / lowellma.gov
 - [City of McKinney, TX](/doc/ics/recollect.md) / mckinneytexas.org
@@ -2812,6 +2830,7 @@ If your service provider is not listed, feel free to open a [source request issu
 - [Newark, Delaware, USA](/doc/source/recyclecoach_com.md) / recyclecoach.com/cities/usa-de-city-of-newark
 - [Northville Township, MI](/doc/source/northville_township_mi_us.md) / twp.northville.mi.us
 - [Olympia, Washington, USA](/doc/source/recyclecoach_com.md) / recyclecoach.com/cities/usa-wa-city-of-olympia
+- [Plainville (CT)](/doc/source/recyclecoach_com.md) / plainvillect.com
 - [ReCollect](/doc/ics/recollect.md) / recollect.net
 - [Recology San Francisco](/doc/ics/recollect.md) / recology.com/recology-san-francisco
 - [Recycle By City](/doc/ics/recyclebycity_com.md) / recyclebycity.com
@@ -2824,6 +2843,7 @@ If your service provider is not listed, feel free to open a [source request issu
 - [Tacoma, Washington, USA](/doc/source/recyclecoach_com.md) / recyclecoach.com/cities/usa-wa-city-of-tacoma
 - [Tucson, Arizona, USA](/doc/source/recyclecoach_com.md) / recyclecoach.com/cities/usa-az-city-of-tucson
 - [University Park, TX](/doc/ics/recollect.md) / uptexas.org
+- [Village of Sunbury, Ohio](/doc/source/sunbury_ohio_org.md) / sunburyohio.org
 - [Waste Connections](/doc/ics/recollect.md) / wasteconnections.com
 </details>
 
