@@ -13447,13 +13447,6 @@
       "id": "mijnafvalwijzer_nl"
     },
     {
-      "title": "Mijn Afval Zaken - BUCH",
-      "module": "hvcgroep_nl",
-      "default_params": {
-        "service": "mijnafvalzaken"},
-      "id": "hvcgroep_nl"
-    },
-    {
       "title": "Afvalstoffendienst.nl",
       "module": "afvalstoffendienst_nl",
       "default_params": {},
@@ -13734,6 +13727,14 @@
         "company": "meerlanden"
       },
       "id": "ximmio_nl"
+    },
+    {
+      "title": "Mijn Afval Zaken - BUCH",
+      "module": "hvcgroep_nl",
+      "default_params": {
+        "service": "mijnafvalzaken"
+      },
+      "id": "hvcgroep_nl"
     },
     {
       "title": "Mijn Blink",
